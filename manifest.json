@@ -1,0 +1,17 @@
+{
+  "id": "scene_editor",
+  "name": "Scene Editor",
+  "version": "1.0.0",
+  "author": "ct",
+  "description": "Create and edit logical scenes, backgrounds, ambient sound and scenario bindings.",
+  "category": "tools, editor",
+  "sources": [
+    "src/**/*.cs"
+  ],
+  "depends": [
+    "tools_base>=1",
+    "scenario_tools_base>=1",
+    "dialog_base>=1",
+    "ui_base>=1"
+  ]
+}
